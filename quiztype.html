@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<tytle>Types</tytle>
+<link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='quiztype.css')}}">
+<h1>SELECT YOUR QUIZ TYPES</h1>
+<br>
+<br>
+<br>
+<br>
+<body>
+	<br>
+	<form method="POST" action="{{ url_for('next') }}">
+		<br>
+		<input type="radio" name="page" value="page1" id="page1">
+		<label for="page1" style="font-size: 25px;">front-end</label><br>
+		<br>
+		<input type="radio" name="page" value="page2" id="page2">
+		<label for="page2" style="font-size: 25px;">back-end</label><br>
+		<br>
+		<input type="radio" name="page" value="page3" id="page3">
+		<label for="page3" style="font-size: 25px;">full-stack</label><br>
+		<br>
+		<br>
+		<br>
+		<input type="submit" value="Go" >
+		<br>
+	</form>
+</body>
+</html>

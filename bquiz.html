@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='bquiz.css')}}">
+	<h1>Back-end Development Quiz</h1>
+	<title>Back-end Development Quiz</title>
+	<style>
+      body {
+        text-align: left;
+      }
+  	</style>
+</head>
+<body>
+
+	<form action="/back" method="POST">
+
+		<!-- Question 1 -->
+		<p>1. Which of the following is a server-side scripting language?</p>
+		<input type="radio" name="q1" value="a" required>
+		<label for="q1">a. JavaScript</label><br>
+		<br>
+		<input type="radio" name="q1" value="b" required>
+		<label for="q1">b. PHP</label><br>
+		<br>
+		<input type="radio" name="q1" value="c" required>
+		<label for="q1">c. HTML</label><br>
+		<br>
+
+		<!-- Question 2 -->
+		<p>2. What does SQL stand for?</p>
+		<input type="radio" name="q2" value="a" required>
+		<label for="q2">a. Structured Query Language</label><br>
+		<br>
+		<input type="radio" name="q2" value="b" required>
+		<label for="q2">b. Structured Question Language</label><br>
+		<br>
+		<input type="radio" name="q2" value="c" required>
+		<label for="q2">c. Structured Query Logic</label><br>
+		<br>
+
+		<!-- Question 3 -->
+		<p>3. What is a database?</p>
+		<input type="radio" name="q3" value="a" required>
+		<label for="q3">a. A collection of related data</label><br>
+		<br>
+		<input type="radio" name="q3" value="b" required>
+		<label for="q3">b. A programming language</label><br>
+		<br>
+		<input type="radio" name="q3" value="c" required>
+		<label for="q3">c. A hardware device</label><br>
+		<br>
+
+		<!-- Question 4 -->
+		<p>4. Which of the following is not a back-end framework?</p>
+		<input type="radio" name="q4" value="a" required>
+		<label for="q4">a. Django</label><br>
+		<br>
+		<input type="radio" name="q4" value="b" required>
+		<label for="q4">b. Ruby on Rails</label><br>
+		<br>
+		<input type="radio" name="q4" value="c" required>
+		<label for="q4">c. Bootstrap</label><br>
+		<br>
+
+		<!-- Question 5 -->
+		<p>5. Which of the following is a server-side database management system?</p>
+		<input type="radio" name="q5" value="a" required>
+		<label for="q5">a. MySQL</label><br>
+		<br>
+		<input type="radio" name="q5" value="b" required>
+		<label for="q5">b. MongoDB</label><br>
+		<br>
+		<input type="radio" name="q5" value="c" required>
+		<label for="q5">c. SQLite</label><br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<input type="submit" value="Submit" class="blink">
+		<br>
+		<br>
+	</form>
+</body>
+</html>

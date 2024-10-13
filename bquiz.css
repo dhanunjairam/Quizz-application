@@ -1,0 +1,52 @@
+h1{
+text-align: center;
+font-size: 100px;
+border: 2px solid black;
+padding: 10px;
+}
+label {
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+p{
+    font-size: 90px;
+    font-weight: bold;
+}
+input[type="submit"]{
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 55px;
+    cursor: pointer;
+    width: 250px;
+    height: 150px;
+}
+@keyframes blink {
+  0% { background-color: red; }
+  50% { background-color: blue; }
+  100% { background-color: red; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  width: 33px;
+  height: 33px;
+}
+body {
+  background-image: url('im2.jpg');
+  filter
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 2300px; /* set a maximum width to center the body */
+  margin: 2 auto; /* center the body horizontally */
+  padding: 20px; /* add some padding to the body */
+  border: 2px solid #333333; /* add a border to the body */
+  box-sizing: border-box; /* include the padding and border in the element's total width and height */
+}

@@ -1,0 +1,11 @@
+body {
+	  background-image: url('fulbg.jpg');
+	  filter
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  max-width: 2300px; /* set a maximum width to center the body */
+	  margin: 2 auto; /* center the body horizontally */
+	  padding: 20px; /* add some padding to the body */
+	  border: 2px solid #333333; /* add a border to the body */
+	  box-sizing: border-box; /* include the padding and border in the element's total width and height */
+}
